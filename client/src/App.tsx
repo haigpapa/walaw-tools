@@ -5,13 +5,10 @@ import { Toaster } from "@/components/ui/toaster";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import AppLayout from "@/components/layout/app-layout";
 import Dashboard from "@/pages/dashboard";
-import CellMosaic from "@/pages/cell-mosaic-complete";
-import ParticleSwarm from "@/pages/particle-swarm-complete";
-import VectorSplit from "@/pages/vector-split-complete";
-import ContourType from "@/pages/contour-type-complete";
-import PatternStudio from "@/pages/pattern-studio-complete";
-import RecursiveDrawing from "@/pages/recursive-drawing-complete";
-import AudioVisualizer from "@/pages/audio-visualizer-complete";
+import CellMosaic from "@/pages/cell-mosaic";
+import ParticleSwarm from "@/pages/particle-swarm";
+import VectorSplit from "@/pages/vector-split";
+import ContourType from "@/pages/contour-type";
 import NotFound from "@/pages/not-found";
 
 function Router() {
@@ -23,9 +20,6 @@ function Router() {
         <Route path="/particle-swarm" component={ParticleSwarm} />
         <Route path="/vector-split" component={VectorSplit} />
         <Route path="/contour-type" component={ContourType} />
-        <Route path="/pattern-studio" component={PatternStudio} />
-        <Route path="/recursive-drawing" component={RecursiveDrawing} />
-        <Route path="/audio-visualizer" component={AudioVisualizer} />
         <Route component={NotFound} />
       </Switch>
     </AppLayout>
