@@ -9,6 +9,9 @@ import CellMosaic from "@/pages/cell-mosaic-complete";
 import ParticleSwarm from "@/pages/particle-swarm-complete";
 import VectorSplit from "@/pages/vector-split-complete";
 import ContourType from "@/pages/contour-type-complete";
+import PatternStudio from "@/pages/pattern-studio-complete";
+import RecursiveDrawing from "@/pages/recursive-drawing-complete";
+import AudioVisualizer from "@/pages/audio-visualizer-complete";
 import NotFound from "@/pages/not-found";
 
 function Router() {
@@ -20,6 +23,9 @@ function Router() {
         <Route path="/particle-swarm" component={ParticleSwarm} />
         <Route path="/vector-split" component={VectorSplit} />
         <Route path="/contour-type" component={ContourType} />
+        <Route path="/pattern-studio" component={PatternStudio} />
+        <Route path="/recursive-drawing" component={RecursiveDrawing} />
+        <Route path="/audio-visualizer" component={AudioVisualizer} />
         <Route component={NotFound} />
       </Switch>
     </AppLayout>

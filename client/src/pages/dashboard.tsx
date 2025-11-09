@@ -7,6 +7,9 @@ import {
   Type,
   Waves,
   Volume2,
+  Layers,
+  GitBranch,
+  Music,
 } from "lucide-react";
 import { cn } from "@/lib/utils";
 
@@ -56,6 +59,33 @@ const tools: ToolCard[] = [
     path: "/contour-type",
     status: "ready",
     color: "from-orange-500 to-red-500",
+  },
+  {
+    id: "pattern-studio",
+    name: "Generative Pattern Studio",
+    description: "Create infinite tileable patterns using Truchet tiles, Islamic geometry, flow fields, and more with symmetry controls",
+    icon: <Layers className="h-8 w-8" />,
+    path: "/pattern-studio",
+    status: "ready",
+    color: "from-yellow-500 to-amber-500",
+  },
+  {
+    id: "recursive-drawing",
+    name: "Recursive Drawing Machine",
+    description: "Generate beautiful fractals and L-systems including trees, Koch curves, Sierpinski triangles, and dragon curves",
+    icon: <GitBranch className="h-8 w-8" />,
+    path: "/recursive-drawing",
+    status: "ready",
+    color: "from-indigo-500 to-violet-500",
+  },
+  {
+    id: "audio-visualizer",
+    name: "Audio Visualizer Composer",
+    description: "Create stunning audio visualizations with real-time frequency analysis, multiple render modes, and live microphone input",
+    icon: <Music className="h-8 w-8" />,
+    path: "/audio-visualizer",
+    status: "ready",
+    color: "from-rose-500 to-pink-500",
   },
 ];
 
