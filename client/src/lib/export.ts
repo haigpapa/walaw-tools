@@ -1,6 +1,6 @@
 import { downloadFile } from "./utils";
 
-export type ExportFormat = "png" | "jpg" | "webp" | "svg" | "gif";
+export type ExportFormat = "png" | "jpg" | "webp" | "svg" | "gif" | "webm";
 
 export interface ExportOptions {
   format: ExportFormat;
