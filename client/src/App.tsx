@@ -5,10 +5,10 @@ import { Toaster } from "@/components/ui/toaster";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import AppLayout from "@/components/layout/app-layout";
 import Dashboard from "@/pages/dashboard";
-import CellMosaic from "@/pages/cell-mosaic";
-import ParticleSwarm from "@/pages/particle-swarm";
-import VectorSplit from "@/pages/vector-split";
-import ContourType from "@/pages/contour-type";
+import CellMosaic from "@/pages/cell-mosaic-complete";
+import ParticleSwarm from "@/pages/particle-swarm-complete";
+import VectorSplit from "@/pages/vector-split-complete";
+import ContourType from "@/pages/contour-type-complete";
 import NotFound from "@/pages/not-found";
 
 function Router() {
